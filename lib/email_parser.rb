@@ -13,7 +13,7 @@ class EmailAddressParser
   
   def parse
    
-    email_addresses.split(/[,\s]+/).uniq { |h| h[:email] }
+    email_addresses.split(/[,\s]+/).uniq { |h| h[email_addresses] }
   
   end
   
