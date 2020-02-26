@@ -13,8 +13,8 @@ class EmailAddressParser
   
   def parse
    
-    email_addresses.split(/[,\s]+/)
-    email_addresses.uniq { |h| h[email_addresses] }
+    email_addresses.split(/[,\s]+/).uniq
+    # email_addresses.uniq { |h| h[email_addresses] }
   end
   
 end
